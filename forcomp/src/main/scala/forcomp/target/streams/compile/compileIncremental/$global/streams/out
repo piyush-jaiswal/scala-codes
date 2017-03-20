@@ -1,0 +1,36 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/Anagrams.scala, /home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/Anagrams.scala, /home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/Anagrams.scala, /home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/Anagrams.scala, /home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 48be3ecc, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/piyush/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/package.scala:8: not found: value common[0m
+[0m[[31merror[0m] [0m      common.resourceAsStreamFromSrc(dictionaryPath)[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/home/piyush/Documents/programs/online courses/Coursera- Functional programming principles in scala/forcomp/src/main/scala/forcomp/Anagrams.scala:89: value toList is not a member of Unit[0m
+[0m[[31merror[0m] [0mpossible cause: maybe a semicolon is missing before `value toList'?[0m
+[0m[[31merror[0m] [0m    }.toList[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0mtwo errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
